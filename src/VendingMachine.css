@@ -1,0 +1,31 @@
+.VendingMachine {
+    background-color: beige;
+    border-radius: .15cm;
+    height: 70vh;
+    width: 85vw;
+    margin: auto;
+}
+
+.VendingMachine-header {
+    text-align: center;
+}
+
+.VendingMachine-button {
+    display: block;
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    padding-top: 20px;
+    background-color: aquamarine;
+    border-radius: .15cm;
+}
+
+.VendingMachine-button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 25px 5px rgb(0, 255, 170)
+}

@@ -1,0 +1,18 @@
+.Nav {
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: cadetblue;
+}
+
+.Nav-link {
+    text-decoration: none;
+    height: px;
+}
+
+.Nav-link.active {
+    background-color: rgb(55, 83, 134);
+    color: white;
+}
